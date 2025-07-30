@@ -1,0 +1,38 @@
+2025-07-30 13:00:53.548857+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create TABLE IF NOT EXISTS photoz ( id BIGINT [*]identity primary_key, fileName VARCHAR(255), contentType VARCHAR(255), data binary )"; expected "ARRAY, INVISIBLE, VISIBLE, NOT NULL, DEFAULT, GENERATED, ON UPDATE, NOT NULL, DEFAULT ON NULL, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create TABLE IF NOT EXISTS photoz ( id BIGINT identity primary_key, fileName VARCHAR(255), contentType VARCHAR(255), data binary ) [42001-232]
+2025-07-30 13:01:47.726666+05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create TABLE IF NOT EXISTS photoz ( id BIGINT [*]identity primary_key, file_name VARCHAR(255), content_type VARCHAR(255), data binary )"; expected "ARRAY, INVISIBLE, VISIBLE, NOT NULL, DEFAULT, GENERATED, ON UPDATE, NOT NULL, DEFAULT ON NULL, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create TABLE IF NOT EXISTS photoz ( id BIGINT identity primary_key, file_name VARCHAR(255), content_type VARCHAR(255), data binary ) [42001-232]
+2025-07-30 13:05:35.229092+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create TABLE IF NOT EXISTS photoz (\000d\000a    id BIGINT [*]identity primary_key,\000d\000a    file_name VARCHAR(255),\000d\000a    content_type VARCHAR(255),\000d\000a    data binary\000d\000a)"; expected "ARRAY, INVISIBLE, VISIBLE, NOT NULL, DEFAULT, GENERATED, ON UPDATE, NOT NULL, DEFAULT ON NULL, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create TABLE IF NOT EXISTS photoz (
+    id BIGINT identity primary_key,
+    file_name VARCHAR(255),
+    content_type VARCHAR(255),
+    data binary
+) [42001-232]
+2025-07-30 13:05:53.693417+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create TABLE IF NOT EXISTS photoz(\000d\000a    id BIGINT [*]identity primary_key,\000d\000a    file_name VARCHAR(255),\000d\000a    content_type VARCHAR(255),\000d\000a    data binary\000d\000a)"; expected "ARRAY, INVISIBLE, VISIBLE, NOT NULL, DEFAULT, GENERATED, ON UPDATE, NOT NULL, DEFAULT ON NULL, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create TABLE IF NOT EXISTS photoz(
+    id BIGINT identity primary_key,
+    file_name VARCHAR(255),
+    content_type VARCHAR(255),
+    data binary
+) [42001-232]
+2025-07-30 13:07:24.311653+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table if not exists photoz(\000d\000aid bigint [*]identity primary_key,\000d\000afile_name varchar(255),\000d\000acontent_type varchar(255),\000d\000adata binary\000d\000a)"; expected "ARRAY, INVISIBLE, VISIBLE, NOT NULL, DEFAULT, GENERATED, ON UPDATE, NOT NULL, DEFAULT ON NULL, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table if not exists photoz(
+id bigint identity primary_key,
+file_name varchar(255),
+content_type varchar(255),
+data binary
+) [42001-232]
+2025-07-30 13:07:48.226635+05:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table if not exists photoz(\000d\000aid bigint [*]identity primary key,\000d\000afile_name varchar(255),\000d\000acontent_type varchar(255),\000d\000adata binary\000d\000a)"; expected "ARRAY, INVISIBLE, VISIBLE, NOT NULL, DEFAULT, GENERATED, ON UPDATE, NOT NULL, DEFAULT ON NULL, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+create table if not exists photoz(
+id bigint identity primary key,
+file_name varchar(255),
+content_type varchar(255),
+data binary
+) [42001-232]
