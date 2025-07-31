@@ -29,7 +29,8 @@ public class DownloadController {
         var data = photo.getData();
         var headers = new HttpHeaders();
         headers.setContentType(MediaType.valueOf(photo.getContentType()));
-        ContentDisposition build = ContentDisposition.builder("attachment").filename(photo.getFileName()).build();
+        var build =
+                ContentDisposition.builder("attachment").filename(photo.getFileName()).build();
         headers.setContentDisposition(build);
         return new ResponseEntity<>(data, headers, HttpStatus.OK);
     }
